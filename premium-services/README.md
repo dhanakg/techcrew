@@ -6,3 +6,4 @@
     dbConfig, loggerConfig etc
 4. Run 'npm start' to start server under payment-services/
 5. Access http://localhost:<port>
+6. 
