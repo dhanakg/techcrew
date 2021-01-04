@@ -6,11 +6,11 @@ const cookieParser = require('cookie-parser');
 const logger = require('./lib/logger');
 const db = require('./lib/db');
 const indexRouter = require('./controllers/index');
-
+const cors = require('cors');
 
 var app = express();
 
-
+app.use(cors());
 logger.config(nconf.get('loggerConfig'));
 db.config(nconf.get("dbConfig").url, nconf.get("dbConfig").dbname);
 app.use(express.json());
@@ -22,7 +22,6 @@ app.use('/payment', indexRouter);
 app.use(function(req, res, next) {
   next(createError(404));
 });
-
 
 app.listen(nconf.get('port'), () => {
   console.log("Express server listening on port " + nconf.get('port'));

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Responsive Signup/Login form</title>
+  
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+<link rel="stylesheet" href="./css/style.css">
+<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Raleway:300,600" rel="stylesheet">
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+	<div class="background">
+		<div class="image-bg">
+	</div>
+
+<!-- partial:index.partial.html -->
+<div class="container">
+   <section id="formHolder">
+
+      <div class="row">
+
+         <!-- Brand Box -->
+         <div class="col-sm-6 brand">
+         
+
+            <div class="heading">
+               <h2>Insurance</h2>
+               <p>Premium Calculator</p>
+            </div>
+
+            <div class="success-msg">
+               <p>Great! You are one of our members now</p>
+               <a href="#" class="profile">Your Profile</a>
+            </div>
+         </div>
+
+
+         <!-- Form Box -->
+         <div class="col-sm-6 form">
+
+            <!-- Login Form -->
+            <div class="login form-peice switched">
+               <form class="login-form" action="#" method="post">
+					<p>Your Premium is:  <span class="amt" > Rs <span id="pamt"></span> </span></p>
+
+                  <div class="CTA">
+                     
+                     <a href="#" class="switch">Back</a>
+                  </div>
+               </form>
+            </div><!-- End Login Form -->
+
+
+            <!-- Signup Form -->
+            <div class="signup form-peice">
+               <form class="signup-form" action="#" method="post">
+
+                  <div class="form-group">
+                     <label for="name"> Full Name </label>
+                     <input class="form-control" type="text" name="username" id="name"  >
+                      
+                  </div>
+				   <div class="form-group">
+                     <label for="name"> Age </label>
+                     <input  type="text" name="username" id="name"  class="form-control">
+                     
+                  </div>
+				 <div class="form-group">
+					<label>Gender</label>
+	   
+						<select class="form-control">
+						<option> --Select-- </option>
+						<option> Male </option>
+						<option> Female </option>
+						 
+					</select>
+                      
+                  </div>
+                  <div class="form-group">
+					<label>PreConditions</label>
+	   
+						<select class="form-control">
+						<option> --Select-- </option>
+						<option> Hypertension </option>
+						<option>	Bloodsugar </option>
+						<option>	BP </option>
+						<option>	OW</option>
+					</select>
+                      
+                  </div>
+				  
+				    <div class="form-group">
+					<label>Habits</label>
+   
+					<select class="form-control">
+						<option> --Select-- </option>
+						<option> Exercise </option>
+						<option>	Drugs </option>
+						<option>	Smoking </option>
+						<option>	Alcohol</option>
+					</select>
+                      
+                  </div>
+ 
+                  <div class="CTA">
+                     
+                     
+                     <a href="#" class="switch btn btn-danger">Calulate Premium</a>
+                  </div>
+               </form>
+            </div><!-- End Signup Form -->
+         </div>
+      </div>
+
+   </section>
+
+ 	</div>
+
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+<script  src="./js/script.js"></script>
+
+</body>
+</html>

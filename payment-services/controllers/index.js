@@ -16,14 +16,14 @@ router.post('/premium/:id', function(req, res) {
       paymentModel.getPremiumDetails(req.params.id, function(err, premium){
         if(err){
           logger.msg("ERROR", "Error at premium retrievel") 
-          res.sendStatus(500);
+          res.status(500).send("Error connecting database. Please check the db connection");
         }else{
-          if(premium !== undefined && premium.paid === undefined){
+          if(premium !== undefined && premium !== null && premium.paid === undefined){
             var paymentDetails = Object.assign(premium, { paid: true });
             paymentModel.insertPaymentDetails(paymentDetails, function(err, id){
              if(err){
               logger.msg("ERROR", "Error at payment insertion"+err) 
-              res.sendStatus(500);
+              res.status(500).send("Error connecting database. Please check the db connection");
              }else{
               res.json({ status: "success", referrence: id });   
              }
