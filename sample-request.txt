@@ -1,0 +1,25 @@
+POST
+http://localhost:8001/insurance/premium/calculation
+{
+	"name": "Tamil",
+	"age": 34,
+	"gender": "Male",
+	"healthConditions": {
+		"hypertension": "yes",
+		"bloodpressure": "no",
+		"bloodsugar": "no",
+		"overweight": "no"
+	},
+	"habits": {
+		"smoking": "no",
+		"exercise": "no",
+		"alcohol": "no",
+		"drugs": "no"
+	}
+}
+
+POST
+http://localhost:8002/payment/premium/5ff1c7f3c086134de071f213
+{
+    "premium": "6855.98"
+}
