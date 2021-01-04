@@ -1,0 +1,221 @@
+    [2021-01-03T19:29:31.245] [INFO] insurance - *** ValidateData.isValidRequestData -- TRUE: 
+[2021-01-03T19:29:31.245] [INFO] insurance - Premium calulating for age 34 for slab 18-25 with 10 % = 5500
+[2021-01-03T19:29:31.245] [INFO] insurance - Premium calulating for age 34 for slab 26-30 with 10 % = 6050
+[2021-01-03T19:29:31.245] [INFO] insurance - Premium calulating for age 34 for slab 31-35 with 10 % = 6655
+[2021-01-03T19:29:31.245] [INFO] insurance - Premium calulating for existing condition hypertension with 1 % = 6721.55
+[2021-01-03T19:29:31.245] [INFO] insurance - Premium calulating for habits exercise with -3 % = 6519.9035
+[2021-01-03T19:29:31.245] [INFO] insurance - Premium calulating for habits smoking with 3 % = 6715.500605
+[2021-01-03T19:30:15.634] [INFO] insurance - *** ValidateData.isValidRequestData -- TRUE: 
+[2021-01-03T19:30:15.634] [INFO] insurance - Premium calulating for age 34 for slab 18-25 with 10 % = 5500
+[2021-01-03T19:30:15.634] [INFO] insurance - Premium calulating for age 34 for slab 26-30 with 10 % = 6050
+[2021-01-03T19:30:15.634] [INFO] insurance - Premium calulating for age 34 for slab 31-35 with 10 % = 6655
+[2021-01-03T19:30:15.634] [INFO] insurance - Premium calulating for existing condition hypertension with 1 % = 6721.55
+[2021-01-03T19:30:15.634] [INFO] insurance - Premium calulating for habits smoking with 3 % = 6923.1965
+[2021-01-03T19:30:15.634] [INFO] insurance - Premium calulating for habits exercise with -3 % = 6715.500605
+[2021-01-03T19:30:38.636] [INFO] insurance - Express server listening on port 8015
+[2021-01-03T19:30:41.817] [INFO] insurance - *** ValidateData.isValidRequestData -- TRUE: 
+[2021-01-03T19:30:41.818] [INFO] insurance - Premium calulating for age 34 for slab 18-25 with 10 % = 5500
+[2021-01-03T19:30:41.818] [INFO] insurance - Premium calulating for age 34 for slab 26-30 with 10 % = 6050
+[2021-01-03T19:30:41.818] [INFO] insurance - Premium calulating for age 34 for slab 31-35 with 10 % = 6655
+[2021-01-03T19:30:41.819] [INFO] insurance - Premium calulating for existing condition hypertension with 1 % = 6721.55
+[2021-01-03T19:30:41.819] [INFO] insurance - Premium calulating for habits smoking with 3 % = 6923.1965
+[2021-01-03T19:30:41.819] [INFO] insurance - Premium calulating for habits exercise with -3 % = 6715.500605
+[2021-01-03T19:31:04.723] [INFO] insurance - *** ValidateData.isValidRequestData -- TRUE: 
+[2021-01-03T19:31:04.724] [INFO] insurance - Premium calulating for age 34 for slab 18-25 with 10 % = 5500
+[2021-01-03T19:31:04.724] [INFO] insurance - Premium calulating for age 34 for slab 26-30 with 10 % = 6050
+[2021-01-03T19:31:04.724] [INFO] insurance - Premium calulating for age 34 for slab 31-35 with 10 % = 6655
+[2021-01-03T19:31:04.724] [INFO] insurance - Premium calulating for existing condition hypertension with 1 % = 6721.55
+[2021-01-03T19:31:04.724] [INFO] insurance - Premium calulating for habits smoking with 3 % = 6923.1965
+[2021-01-03T19:31:19.412] [INFO] insurance - *** ValidateData.isValidRequestData -- TRUE: 
+[2021-01-03T19:31:19.412] [INFO] insurance - Premium calulating for age 34 for slab 18-25 with 10 % = 5500
+[2021-01-03T19:31:19.412] [INFO] insurance - Premium calulating for age 34 for slab 26-30 with 10 % = 6050
+[2021-01-03T19:31:19.412] [INFO] insurance - Premium calulating for age 34 for slab 31-35 with 10 % = 6655
+[2021-01-03T19:31:19.412] [INFO] insurance - Premium calulating for existing condition hypertension with 1 % = 6721.55
+[2021-01-03T19:31:19.412] [INFO] insurance - Premium calulating for habits smoking with 3 % = 6923.1965
+[2021-01-03T19:31:19.412] [INFO] insurance - Premium calulating for habits exercise with -3 % = 6715.500605
+[2021-01-03T19:32:43.549] [INFO] insurance - Express server listening on port 8015
+[2021-01-03T19:32:46.657] [INFO] insurance - *** ValidateData.isValidRequestData -- TRUE: 
+[2021-01-03T19:32:46.657] [INFO] insurance - Premium calulating for age 34 for slab 18-25 with 10 % = 5500
+[2021-01-03T19:32:46.657] [INFO] insurance - Premium calulating for age 34 for slab 26-30 with 10 % = 6050
+[2021-01-03T19:32:46.658] [INFO] insurance - Premium calulating for age 34 for slab 31-35 with 10 % = 6655
+[2021-01-03T19:32:46.658] [INFO] insurance - Premium calulating for gender Male for slab MALE with 2 % = 6788.1
+[2021-01-03T19:32:46.658] [INFO] insurance - Premium calulating for existing condition hypertension with 1 % = 6855.981000000001
+[2021-01-03T19:32:46.658] [INFO] insurance - Premium calulating for habits smoking with 3 % = 7061.6594
+[2021-01-03T19:32:46.658] [INFO] insurance - Premium calulating for habits exercise with -3 % = 6849.809617999999
+[2021-01-03T19:32:48.041] [INFO] insurance - *** ValidateData.isValidRequestData -- TRUE: 
+[2021-01-03T19:32:48.041] [INFO] insurance - Premium calulating for age 34 for slab 18-25 with 10 % = 5500
+[2021-01-03T19:32:48.041] [INFO] insurance - Premium calulating for age 34 for slab 26-30 with 10 % = 6050
+[2021-01-03T19:32:48.041] [INFO] insurance - Premium calulating for age 34 for slab 31-35 with 10 % = 6655
+[2021-01-03T19:32:48.041] [INFO] insurance - Premium calulating for gender Male for slab MALE with 2 % = 6788.1
+[2021-01-03T19:32:48.041] [INFO] insurance - Premium calulating for existing condition hypertension with 1 % = 6855.981000000001
+[2021-01-03T19:32:48.041] [INFO] insurance - Premium calulating for habits smoking with 3 % = 7061.6594
+[2021-01-03T19:32:48.041] [INFO] insurance - Premium calulating for habits exercise with -3 % = 6849.809617999999
+[2021-01-03T19:32:54.578] [INFO] insurance - *** ValidateData.isValidRequestData -- ERROR :
+{"path":["habits","smoking"],"property":"instance.habits.smoking","message":"is not one of enum values: yes,no","schema":{"type":"string","enum":["yes","no"],"required":true},"instance":"n","name":"enum","argument":["yes","no"],"stack":"instance.habits.smoking is not one of enum values: yes,no"}
+[2021-01-03T19:32:54.578] [ERROR] insurance - Error at schema validation
+[2021-01-03T19:33:04.519] [INFO] insurance - *** ValidateData.isValidRequestData -- TRUE: 
+[2021-01-03T19:33:04.519] [INFO] insurance - Premium calulating for age 34 for slab 18-25 with 10 % = 5500
+[2021-01-03T19:33:04.519] [INFO] insurance - Premium calulating for age 34 for slab 26-30 with 10 % = 6050
+[2021-01-03T19:33:04.519] [INFO] insurance - Premium calulating for age 34 for slab 31-35 with 10 % = 6655
+[2021-01-03T19:33:04.519] [INFO] insurance - Premium calulating for gender Male for slab MALE with 2 % = 6788.1
+[2021-01-03T19:33:04.519] [INFO] insurance - Premium calulating for existing condition hypertension with 1 % = 6855.981000000001
+[2021-01-03T19:33:09.425] [INFO] insurance - Express server listening on port 8015
+[2021-01-03T19:33:45.464] [INFO] insurance - Express server listening on port 8015
+[2021-01-03T19:34:08.082] [INFO] insurance - Express server listening on port 8015
+[2021-01-03T19:34:13.973] [INFO] insurance - *** ValidateData.isValidRequestData -- TRUE: 
+[2021-01-03T19:34:13.973] [INFO] insurance - Premium calulating for age 34 for slab 18-25 with 10 % = 5500
+[2021-01-03T19:34:13.973] [INFO] insurance - Premium calulating for age 34 for slab 26-30 with 10 % = 6050
+[2021-01-03T19:34:13.974] [INFO] insurance - Premium calulating for age 34 for slab 31-35 with 10 % = 6655
+[2021-01-03T19:34:13.974] [INFO] insurance - Premium calulating for gender Male for slab MALE with 2 % = 6788.1
+[2021-01-03T19:34:13.974] [INFO] insurance - Premium calulating for existing condition hypertension with 1 % = 6855.981000000001
+[2021-01-03T19:36:10.799] [INFO] insurance - Express server listening on port 8001
+[2021-01-03T19:36:37.367] [INFO] insurance - Express server listening on port 8001
+[2021-01-03T19:36:43.264] [INFO] insurance - Express server listening on port 8001
+[2021-01-03T19:36:53.683] [INFO] insurance - *** ValidateData.isValidRequestData -- TRUE: 
+[2021-01-03T19:36:53.683] [INFO] insurance - Premium calulating for age 34 for slab 18-25 with 10 % = 5500
+[2021-01-03T19:36:53.683] [INFO] insurance - Premium calulating for age 34 for slab 26-30 with 10 % = 6050
+[2021-01-03T19:36:53.684] [INFO] insurance - Premium calulating for age 34 for slab 31-35 with 10 % = 6655
+[2021-01-03T19:36:53.684] [INFO] insurance - Premium calulating for gender Male for slab MALE with 2 % = 6788.1
+[2021-01-03T19:36:53.684] [INFO] insurance - Premium calulating for existing condition hypertension with 1 % = 6855.981000000001
+[2021-01-03T19:39:59.579] [INFO] insurance - Express server listening on port 8001
+[2021-01-03T19:41:50.987] [INFO] insurance - Express server listening on port 8001
+[2021-01-03T19:41:54.914] [INFO] insurance - Express server listening on port 8001
+[2021-01-03T19:47:26.645] [INFO] insurance - Express server listening on port 8001
+[2021-01-03T19:49:08.373] [INFO] insurance - Express server listening on port 8001
+[2021-01-03T20:06:39.955] [INFO] insurance - Express server listening on port 8001
+[2021-01-03T20:08:23.951] [INFO] insurance - Express server listening on port 8001
+[2021-01-03T20:09:06.150] [INFO] insurance - Express server listening on port 8001
+[2021-01-03T20:09:18.958] [INFO] insurance - Express server listening on port 8001
+[2021-01-03T20:09:38.543] [INFO] insurance - Express server listening on port 8001
+[2021-01-03T20:09:54.544] [INFO] insurance - Express server listening on port 8001
+[2021-01-03T20:10:21.239] [INFO] insurance - Express server listening on port 8001
+[2021-01-03T20:12:54.237] [INFO] insurance - Express server listening on port 8001
+[2021-01-03T20:13:02.751] [INFO] insurance - Express server listening on port 8001
+[2021-01-03T20:13:08.108] [INFO] insurance - *** ValidateData.isValidRequestData -- TRUE: 
+[2021-01-03T20:14:06.973] [INFO] insurance - Express server listening on port 8001
+[2021-01-03T20:14:14.218] [INFO] insurance - *** ValidateData.isValidRequestData -- TRUE: 
+[2021-01-03T20:14:29.927] [INFO] insurance - Express server listening on port 8001
+[2021-01-03T20:14:45.250] [INFO] insurance - Express server listening on port 8001
+[2021-01-03T20:14:48.635] [INFO] insurance - *** ValidateData.isValidRequestData -- TRUE: 
+[2021-01-03T20:15:24.832] [INFO] insurance - Express server listening on port 8001
+[2021-01-03T20:15:33.684] [INFO] insurance - *** ValidateData.isValidRequestData -- TRUE: 
+[2021-01-03T20:15:33.685] [INFO] insurance - Premium calulating for age 34 for slab 18-25 with 10 % = 5500
+[2021-01-03T20:15:33.685] [INFO] insurance - Premium calulating for age 34 for slab 26-30 with 10 % = 6050
+[2021-01-03T20:15:33.685] [INFO] insurance - Premium calulating for age 34 for slab 31-35 with 10 % = 6655
+[2021-01-03T20:15:33.685] [INFO] insurance - Premium calulating for gender Male for slab MALE with 2 % = 6788.1
+[2021-01-03T20:15:33.685] [INFO] insurance - Premium calulating for existing condition hypertension with 1 % = 6855.981000000001
+[2021-01-03T20:18:07.418] [INFO] insurance - Express server listening on port 8001
+[2021-01-03T20:18:11.399] [INFO] insurance - Express server listening on port 8001
+[2021-01-03T20:19:21.912] [INFO] insurance - Express server listening on port 8001
+[2021-01-03T20:19:32.835] [INFO] insurance - Express server listening on port 8001
+[2021-01-03T20:19:51.595] [INFO] insurance - Express server listening on port 8001
+[2021-01-03T20:19:55.935] [INFO] insurance - *** ValidateData.isValidRequestData -- TRUE: 
+[2021-01-03T20:19:55.936] [INFO] insurance - Premium calulating for age 34 for slab 18-25 with 10 % = 5500
+[2021-01-03T20:19:55.936] [INFO] insurance - Premium calulating for age 34 for slab 26-30 with 10 % = 6050
+[2021-01-03T20:19:55.936] [INFO] insurance - Premium calulating for age 34 for slab 31-35 with 10 % = 6655
+[2021-01-03T20:19:55.936] [INFO] insurance - Premium calulating for gender Male for slab MALE with 2 % = 6788.1
+[2021-01-03T20:19:55.937] [INFO] insurance - Premium calulating for existing condition hypertension with 1 % = 6855.981000000001
+[2021-01-03T20:20:11.115] [INFO] insurance - Express server listening on port 8001
+[2021-01-03T20:20:14.189] [INFO] insurance - *** ValidateData.isValidRequestData -- TRUE: 
+[2021-01-03T20:20:14.189] [INFO] insurance - Premium calulating for age 34 for slab 18-25 with 10 % = 5500
+[2021-01-03T20:20:14.189] [INFO] insurance - Premium calulating for age 34 for slab 26-30 with 10 % = 6050
+[2021-01-03T20:20:14.189] [INFO] insurance - Premium calulating for age 34 for slab 31-35 with 10 % = 6655
+[2021-01-03T20:20:14.190] [INFO] insurance - Premium calulating for gender Male for slab MALE with 2 % = 6788.1
+[2021-01-03T20:20:14.190] [INFO] insurance - Premium calulating for existing condition hypertension with 1 % = 6855.981000000001
+[2021-01-03T20:20:14.198] [INFO] insurance - 1 document inserted
+[2021-01-03T20:20:18.121] [INFO] insurance - *** ValidateData.isValidRequestData -- TRUE: 
+[2021-01-03T20:20:18.121] [INFO] insurance - Premium calulating for age 34 for slab 18-25 with 10 % = 5500
+[2021-01-03T20:20:18.121] [INFO] insurance - Premium calulating for age 34 for slab 26-30 with 10 % = 6050
+[2021-01-03T20:20:18.121] [INFO] insurance - Premium calulating for age 34 for slab 31-35 with 10 % = 6655
+[2021-01-03T20:20:18.121] [INFO] insurance - Premium calulating for gender Male for slab MALE with 2 % = 6788.1
+[2021-01-03T20:20:18.121] [INFO] insurance - Premium calulating for existing condition hypertension with 1 % = 6855.981000000001
+[2021-01-03T20:20:18.124] [INFO] insurance - 1 document inserted
+[2021-01-03T20:20:19.386] [INFO] insurance - *** ValidateData.isValidRequestData -- TRUE: 
+[2021-01-03T20:20:19.387] [INFO] insurance - Premium calulating for age 34 for slab 18-25 with 10 % = 5500
+[2021-01-03T20:20:19.387] [INFO] insurance - Premium calulating for age 34 for slab 26-30 with 10 % = 6050
+[2021-01-03T20:20:19.387] [INFO] insurance - Premium calulating for age 34 for slab 31-35 with 10 % = 6655
+[2021-01-03T20:20:19.387] [INFO] insurance - Premium calulating for gender Male for slab MALE with 2 % = 6788.1
+[2021-01-03T20:20:19.387] [INFO] insurance - Premium calulating for existing condition hypertension with 1 % = 6855.981000000001
+[2021-01-03T20:20:19.392] [INFO] insurance - 1 document inserted
+[2021-01-03T20:22:10.377] [INFO] insurance - Express server listening on port 8001
+[2021-01-03T20:22:14.659] [INFO] insurance - *** ValidateData.isValidRequestData -- TRUE: 
+[2021-01-03T20:22:14.660] [INFO] insurance - Premium calulating for age 34 for slab 18-25 with 10 % = 5500
+[2021-01-03T20:22:14.660] [INFO] insurance - Premium calulating for age 34 for slab 26-30 with 10 % = 6050
+[2021-01-03T20:22:14.660] [INFO] insurance - Premium calulating for age 34 for slab 31-35 with 10 % = 6655
+[2021-01-03T20:22:14.661] [INFO] insurance - Premium calulating for gender Male for slab MALE with 2 % = 6788.1
+[2021-01-03T20:22:14.661] [INFO] insurance - Premium calulating for existing condition hypertension with 1 % = 6855.981000000001
+[2021-01-03T20:22:14.958] [INFO] insurance - 1 document inserted
+[2021-01-03T20:23:50.180] [INFO] insurance - Express server listening on port 8001
+[2021-01-03T20:23:54.743] [INFO] insurance - *** ValidateData.isValidRequestData -- TRUE: 
+[2021-01-03T20:23:54.743] [INFO] insurance - Premium calulating for age 34 for slab 18-25 with 10 % = 5500
+[2021-01-03T20:23:54.743] [INFO] insurance - Premium calulating for age 34 for slab 26-30 with 10 % = 6050
+[2021-01-03T20:23:54.744] [INFO] insurance - Premium calulating for age 34 for slab 31-35 with 10 % = 6655
+[2021-01-03T20:23:54.744] [INFO] insurance - Premium calulating for gender Male for slab MALE with 2 % = 6788.1
+[2021-01-03T20:23:54.744] [INFO] insurance - Premium calulating for existing condition hypertension with 1 % = 6855.981000000001
+[2021-01-03T20:23:54.752] [INFO] insurance - 1 document inserted
+[2021-01-03T20:24:24.192] [INFO] insurance - Express server listening on port 8001
+[2021-01-03T20:24:28.767] [INFO] insurance - *** ValidateData.isValidRequestData -- TRUE: 
+[2021-01-03T20:24:28.767] [INFO] insurance - Premium calulating for age 34 for slab 18-25 with 10 % = 5500
+[2021-01-03T20:24:28.767] [INFO] insurance - Premium calulating for age 34 for slab 26-30 with 10 % = 6050
+[2021-01-03T20:24:28.768] [INFO] insurance - Premium calulating for age 34 for slab 31-35 with 10 % = 6655
+[2021-01-03T20:24:28.768] [INFO] insurance - Premium calulating for gender Male for slab MALE with 2 % = 6788.1
+[2021-01-03T20:24:28.768] [INFO] insurance - Premium calulating for existing condition hypertension with 1 % = 6855.981000000001
+[2021-01-03T20:24:28.777] [INFO] insurance - 1 document inserted
+[2021-01-03T20:24:48.933] [INFO] insurance - Express server listening on port 8001
+[2021-01-03T20:24:51.103] [INFO] insurance - *** ValidateData.isValidRequestData -- TRUE: 
+[2021-01-03T20:24:51.103] [INFO] insurance - Premium calulating for age 34 for slab 18-25 with 10 % = 5500
+[2021-01-03T20:24:51.103] [INFO] insurance - Premium calulating for age 34 for slab 26-30 with 10 % = 6050
+[2021-01-03T20:24:51.104] [INFO] insurance - Premium calulating for age 34 for slab 31-35 with 10 % = 6655
+[2021-01-03T20:24:51.104] [INFO] insurance - Premium calulating for gender Male for slab MALE with 2 % = 6788.1
+[2021-01-03T20:24:51.104] [INFO] insurance - Premium calulating for existing condition hypertension with 1 % = 6855.981000000001
+[2021-01-03T20:24:51.113] [INFO] insurance - 1 document inserted5ff1b793a811610d5cc12015
+[2021-01-03T20:25:40.758] [INFO] insurance - Express server listening on port 8001
+[2021-01-03T20:25:54.778] [INFO] insurance - Express server listening on port 8001
+[2021-01-03T20:25:56.649] [INFO] insurance - *** ValidateData.isValidRequestData -- TRUE: 
+[2021-01-03T20:25:56.650] [INFO] insurance - Premium calulating for age 34 for slab 18-25 with 10 % = 5500
+[2021-01-03T20:25:56.650] [INFO] insurance - Premium calulating for age 34 for slab 26-30 with 10 % = 6050
+[2021-01-03T20:25:56.650] [INFO] insurance - Premium calulating for age 34 for slab 31-35 with 10 % = 6655
+[2021-01-03T20:25:56.650] [INFO] insurance - Premium calulating for gender Male for slab MALE with 2 % = 6788.1
+[2021-01-03T20:25:56.651] [INFO] insurance - Premium calulating for existing condition hypertension with 1 % = 6855.981000000001
+[2021-01-03T20:26:25.215] [INFO] insurance - Express server listening on port 8001
+[2021-01-03T20:26:26.402] [INFO] insurance - Express server listening on port 8001
+[2021-01-03T20:26:30.375] [INFO] insurance - *** ValidateData.isValidRequestData -- TRUE: 
+[2021-01-03T20:26:30.376] [INFO] insurance - Premium calulating for age 34 for slab 18-25 with 10 % = 5500
+[2021-01-03T20:26:30.376] [INFO] insurance - Premium calulating for age 34 for slab 26-30 with 10 % = 6050
+[2021-01-03T20:26:30.377] [INFO] insurance - Premium calulating for age 34 for slab 31-35 with 10 % = 6655
+[2021-01-03T20:26:30.378] [INFO] insurance - Premium calulating for gender Male for slab MALE with 2 % = 6788.1
+[2021-01-03T20:26:30.378] [INFO] insurance - Premium calulating for existing condition hypertension with 1 % = 6855.981000000001
+[2021-01-03T20:26:30.395] [INFO] insurance - 1 document inserted5ff1b7f64905db3ba414ebcc
+[2021-01-03T20:26:58.105] [INFO] insurance - Express server listening on port 8001
+[2021-01-03T20:27:01.214] [INFO] insurance - *** ValidateData.isValidRequestData -- TRUE: 
+[2021-01-03T20:27:01.214] [INFO] insurance - Premium calulating for age 34 for slab 18-25 with 10 % = 5500
+[2021-01-03T20:27:01.214] [INFO] insurance - Premium calulating for age 34 for slab 26-30 with 10 % = 6050
+[2021-01-03T20:27:01.215] [INFO] insurance - Premium calulating for age 34 for slab 31-35 with 10 % = 6655
+[2021-01-03T20:27:01.215] [INFO] insurance - Premium calulating for gender Male for slab MALE with 2 % = 6788.1
+[2021-01-03T20:27:01.215] [INFO] insurance - Premium calulating for existing condition hypertension with 1 % = 6855.981000000001
+[2021-01-03T20:27:01.223] [INFO] insurance - 1 document inserted5ff1b8158319fb40f84d53d6
+[2021-01-03T20:27:41.167] [INFO] insurance - Express server listening on port 8001
+[2021-01-03T20:27:43.573] [INFO] insurance - Express server listening on port 8001
+[2021-01-03T20:28:31.795] [INFO] insurance - Express server listening on port 8001
+[2021-01-03T20:28:34.277] [INFO] insurance - *** ValidateData.isValidRequestData -- TRUE: 
+[2021-01-03T20:28:34.277] [INFO] insurance - Premium calulating for age 34 for slab 18-25 with 10 % = 5500
+[2021-01-03T20:28:34.277] [INFO] insurance - Premium calulating for age 34 for slab 26-30 with 10 % = 6050
+[2021-01-03T20:28:34.278] [INFO] insurance - Premium calulating for age 34 for slab 31-35 with 10 % = 6655
+[2021-01-03T20:28:34.278] [INFO] insurance - Premium calulating for gender Male for slab MALE with 2 % = 6788.1
+[2021-01-03T20:28:34.278] [INFO] insurance - Premium calulating for existing condition hypertension with 1 % = 6855.981000000001
+[2021-01-03T20:28:34.284] [INFO] insurance - 1 document inserted5ff1b872f15a373b344b8395
+[2021-01-03T20:28:46.403] [INFO] insurance - Express server listening on port 8001
+[2021-01-03T21:32:15.011] [INFO] insurance - *** ValidateData.isValidRequestData -- TRUE: 
+[2021-01-03T21:32:15.011] [INFO] insurance - Premium calulating for age 34 for slab 18-25 with 10 % = 5500
+[2021-01-03T21:32:15.012] [INFO] insurance - Premium calulating for age 34 for slab 26-30 with 10 % = 6050
+[2021-01-03T21:32:15.012] [INFO] insurance - Premium calulating for age 34 for slab 31-35 with 10 % = 6655
+[2021-01-03T21:32:15.013] [INFO] insurance - Premium calulating for gender Male for slab MALE with 2 % = 6788.1
+[2021-01-03T21:32:15.013] [INFO] insurance - Premium calulating for existing condition hypertension with 1 % = 6855.981000000001
+[2021-01-03T21:32:15.020] [INFO] insurance - 1 document inserted5ff1c75fc086134de071f212
+[2021-01-03T21:34:43.121] [INFO] insurance - *** ValidateData.isValidRequestData -- TRUE: 
+[2021-01-03T21:34:43.121] [INFO] insurance - Premium calulating for age 34 for slab 18-25 with 10 % = 5500
+[2021-01-03T21:34:43.121] [INFO] insurance - Premium calulating for age 34 for slab 26-30 with 10 % = 6050
+[2021-01-03T21:34:43.121] [INFO] insurance - Premium calulating for age 34 for slab 31-35 with 10 % = 6655
+[2021-01-03T21:34:43.121] [INFO] insurance - Premium calulating for gender Male for slab MALE with 2 % = 6788.1
+[2021-01-03T21:34:43.122] [INFO] insurance - Premium calulating for existing condition hypertension with 1 % = 6855.981000000001
+[2021-01-03T21:34:43.123] [INFO] insurance - 1 document inserted5ff1c7f3c086134de071f213

@@ -1,0 +1,122 @@
+[2021-01-02T21:02:05.319] [INFO] insurance - Express server listening on port 8015
+[2021-01-02T21:02:07.572] [INFO] insurance - Premium calulating for age 34 for slab 18-25 with 10 % = 5500
+[2021-01-02T21:02:07.572] [INFO] insurance - Premium calulating for age 34 for slab 26-30 with 10 % = 6050
+[2021-01-02T21:02:07.573] [INFO] insurance - Premium calulating for age 34 for slab 31-35 with 10 % = 6655
+[2021-01-02T21:02:07.573] [INFO] insurance - Premium calulating for gender MALE for slab MALE with 2 % = 6788.1
+[2021-01-02T21:02:07.573] [INFO] insurance - Premium calulating for existing condition overweight with 1 % = 6855.981000000001
+[2021-01-02T21:02:07.574] [INFO] insurance - Premium calulating for habits exercise with -3 % = 6650.3006
+[2021-01-02T21:02:07.574] [INFO] insurance - Premium calulating for habits smoking with 3 % = 6849.809617999999
+[2021-01-02T21:02:37.618] [INFO] insurance - Express server listening on port 8015
+[2021-01-02T21:02:38.816] [INFO] insurance - Premium calulating for age 34 for slab 18-25 with 10 % = 5500
+[2021-01-02T21:02:38.816] [INFO] insurance - Premium calulating for age 34 for slab 26-30 with 10 % = 6050
+[2021-01-02T21:02:38.817] [INFO] insurance - Premium calulating for age 34 for slab 31-35 with 10 % = 6655
+[2021-01-02T21:02:38.818] [INFO] insurance - Premium calulating for gender MALE for slab MALE with 2 % = 6788.1
+[2021-01-02T21:02:38.818] [INFO] insurance - Premium calulating for existing condition overweight with 1 % = 6855.981000000001
+[2021-01-02T21:02:43.522] [INFO] insurance - Express server listening on port 8015
+[2021-01-02T21:04:52.814] [INFO] insurance - Express server listening on port 8015
+[2021-01-02T21:05:06.711] [INFO] insurance - Express server listening on port 8015
+[2021-01-02T21:06:24.855] [INFO] insurance - Express server listening on port 8015
+[2021-01-02T21:06:30.654] [INFO] insurance - Premium calulating for age 34 for slab 18-25 with 10 % = 5500
+[2021-01-02T21:06:30.654] [INFO] insurance - Premium calulating for age 34 for slab 26-30 with 10 % = 6050
+[2021-01-02T21:06:30.655] [INFO] insurance - Premium calulating for age 34 for slab 31-35 with 10 % = 6655
+[2021-01-02T21:07:06.854] [INFO] insurance - Express server listening on port 8015
+[2021-01-02T21:07:08.527] [INFO] insurance - Premium calulating for age 34 for slab 18-25 with 10 % = 5500
+[2021-01-02T21:07:08.527] [INFO] insurance - Premium calulating for age 34 for slab 26-30 with 10 % = 6050
+[2021-01-02T21:07:08.528] [INFO] insurance - Premium calulating for age 34 for slab 31-35 with 10 % = 6655
+[2021-01-02T21:07:14.346] [INFO] insurance - Premium calulating for age 34 for slab 18-25 with 10 % = 5500
+[2021-01-02T21:07:14.346] [INFO] insurance - Premium calulating for age 34 for slab 26-30 with 10 % = 6050
+[2021-01-02T21:07:14.346] [INFO] insurance - Premium calulating for age 34 for slab 31-35 with 10 % = 6655
+[2021-01-02T21:08:41.640] [INFO] insurance - Express server listening on port 8015
+[2021-01-02T21:08:41.672] [INFO] insurance - Premium calulating for age 34 for slab 18-25 with 10 % = 5500
+[2021-01-02T21:08:41.672] [INFO] insurance - Premium calulating for age 34 for slab 26-30 with 10 % = 6050
+[2021-01-02T21:08:41.673] [INFO] insurance - Premium calulating for age 34 for slab 31-35 with 10 % = 6655
+[2021-01-02T21:08:46.372] [INFO] insurance - Premium calulating for age 34 for slab 18-25 with 10 % = 5500
+[2021-01-02T21:08:46.372] [INFO] insurance - Premium calulating for age 34 for slab 26-30 with 10 % = 6050
+[2021-01-02T21:08:46.372] [INFO] insurance - Premium calulating for age 34 for slab 31-35 with 10 % = 6655
+[2021-01-02T21:12:17.721] [INFO] insurance - Express server listening on port 8015
+[2021-01-02T21:12:19.265] [INFO] insurance - Premium calulating for age 34 for slab 18-25 with 10 % = 5500
+[2021-01-02T21:12:19.265] [INFO] insurance - Premium calulating for age 34 for slab 26-30 with 10 % = 6050
+[2021-01-02T21:12:19.266] [INFO] insurance - Premium calulating for age 34 for slab 31-35 with 10 % = 6655
+[2021-01-02T21:12:19.267] [INFO] insurance - Premium calulating for existing condition overweight with 1 % = 6721.55
+[2021-01-02T21:12:37.559] [INFO] insurance - Express server listening on port 8015
+[2021-01-02T21:12:41.204] [INFO] insurance - Premium calulating for age 34 for slab 18-25 with 10 % = 5500
+[2021-01-02T21:12:41.205] [INFO] insurance - Premium calulating for age 34 for slab 26-30 with 10 % = 6050
+[2021-01-02T21:12:41.206] [INFO] insurance - Premium calulating for age 34 for slab 31-35 with 10 % = 6655
+[2021-01-02T21:12:41.206] [INFO] insurance - Premium calulating for existing condition overweight with 1 % = 6721.55
+[2021-01-02T21:13:37.489] [INFO] insurance - Express server listening on port 8015
+[2021-01-02T21:13:44.997] [INFO] insurance - Express server listening on port 8015
+[2021-01-02T21:13:48.810] [INFO] insurance - Premium calulating for age 34 for slab 18-25 with 10 % = 5500
+[2021-01-02T21:13:48.810] [INFO] insurance - Premium calulating for age 34 for slab 26-30 with 10 % = 6050
+[2021-01-02T21:13:48.811] [INFO] insurance - Premium calulating for age 34 for slab 31-35 with 10 % = 6655
+[2021-01-02T21:13:48.812] [INFO] insurance - Premium calulating for existing condition overweight with 1 % = 6721.55
+[2021-01-02T21:13:54.123] [INFO] insurance - Premium calulating for age 34 for slab 18-25 with 10 % = 5500
+[2021-01-02T21:13:54.124] [INFO] insurance - Premium calulating for age 34 for slab 26-30 with 10 % = 6050
+[2021-01-02T21:13:54.124] [INFO] insurance - Premium calulating for age 34 for slab 31-35 with 10 % = 6655
+[2021-01-02T21:13:54.124] [INFO] insurance - Premium calulating for existing condition overweight with 1 % = 6721.55
+[2021-01-02T21:14:02.452] [INFO] insurance - Premium calulating for age 34 for slab 18-25 with 10 % = 5500
+[2021-01-02T21:14:02.453] [INFO] insurance - Premium calulating for age 34 for slab 26-30 with 10 % = 6050
+[2021-01-02T21:14:02.453] [INFO] insurance - Premium calulating for age 34 for slab 31-35 with 10 % = 6655
+[2021-01-02T21:14:02.453] [INFO] insurance - Premium calulating for existing condition overweight with 1 % = 6721.55
+[2021-01-02T21:14:11.986] [INFO] insurance - Premium calulating for age 34 for slab 18-25 with 10 % = 5500
+[2021-01-02T21:14:11.986] [INFO] insurance - Premium calulating for age 34 for slab 26-30 with 10 % = 6050
+[2021-01-02T21:14:11.987] [INFO] insurance - Premium calulating for age 34 for slab 31-35 with 10 % = 6655
+[2021-01-02T21:14:11.987] [INFO] insurance - Premium calulating for existing condition overweight with 1 % = 6721.55
+[2021-01-02T21:14:50.004] [INFO] insurance - Express server listening on port 8015
+[2021-01-02T21:14:51.473] [INFO] insurance - Premium calulating for age 34 for slab 18-25 with 10 % = 5500
+[2021-01-02T21:14:51.473] [INFO] insurance - Premium calulating for age 34 for slab 26-30 with 10 % = 6050
+[2021-01-02T21:14:51.474] [INFO] insurance - Premium calulating for age 34 for slab 31-35 with 10 % = 6655
+[2021-01-02T21:14:51.475] [INFO] insurance - Premium calulating for existing condition overweight with 1 % = 6721.55
+[2021-01-02T21:14:51.475] [INFO] insurance - Premium calulating for habits exercise with -3 % = 6519.9035
+[2021-01-02T21:14:51.475] [INFO] insurance - Premium calulating for habits smoking with 3 % = 6715.500605
+[2021-01-02T21:15:45.207] [INFO] insurance - Express server listening on port 8015
+[2021-01-02T21:15:46.661] [INFO] insurance - Premium calulating for age 34 for slab 18-25 with 10 % = 5500
+[2021-01-02T21:15:46.662] [INFO] insurance - Premium calulating for age 34 for slab 26-30 with 10 % = 6050
+[2021-01-02T21:15:46.663] [INFO] insurance - Premium calulating for age 34 for slab 31-35 with 10 % = 6655
+[2021-01-02T21:15:46.663] [INFO] insurance - Premium calulating for gender MALE for slab MALE with 2 % = 6788.1
+[2021-01-02T21:15:46.664] [INFO] insurance - Premium calulating for habits exercise with -3 % = 6584.457
+[2021-01-02T21:15:46.664] [INFO] insurance - Premium calulating for habits smoking with 3 % = 6781.99071
+[2021-01-02T21:17:36.101] [INFO] insurance - Express server listening on port 8015
+[2021-01-02T21:17:37.990] [INFO] insurance - Premium calulating for age 34 for slab 18-25 with 10 % = 5500
+[2021-01-02T21:17:37.990] [INFO] insurance - Premium calulating for age 34 for slab 26-30 with 10 % = 6050
+[2021-01-02T21:17:37.991] [INFO] insurance - Premium calulating for age 34 for slab 31-35 with 10 % = 6655
+[2021-01-02T21:17:37.992] [INFO] insurance - Premium calulating for gender MALE for slab MALE with 2 % = 6788.1
+[2021-01-02T21:17:37.992] [INFO] insurance - Premium calulating for existing condition overweight with 1 % = 6855.981000000001
+[2021-01-02T21:17:37.992] [INFO] insurance - Premium calulating for habits exercise with -3 % = 6650.3006
+[2021-01-02T21:17:37.992] [INFO] insurance - Premium calulating for habits smoking with 3 % = 6849.809617999999
+[2021-01-02T21:17:53.256] [INFO] insurance - Express server listening on port 8015
+[2021-01-02T21:17:55.184] [INFO] insurance - Premium calulating for age 34 for slab 18-25 with 10 % = 5500
+[2021-01-02T21:17:55.184] [INFO] insurance - Premium calulating for age 34 for slab 26-30 with 10 % = 6050
+[2021-01-02T21:17:55.185] [INFO] insurance - Premium calulating for age 34 for slab 31-35 with 10 % = 6655
+[2021-01-02T21:17:55.186] [INFO] insurance - Premium calulating for gender MALE for slab MALE with 2 % = 6788.1
+[2021-01-02T21:17:55.186] [INFO] insurance - Premium calulating for existing condition overweight with 1 % = 6855.981000000001
+[2021-01-02T21:18:03.126] [INFO] insurance - Express server listening on port 8015
+[2021-01-02T21:18:04.482] [INFO] insurance - Premium calulating for age 34 for slab 18-25 with 10 % = 5500
+[2021-01-02T21:18:04.482] [INFO] insurance - Premium calulating for age 34 for slab 26-30 with 10 % = 6050
+[2021-01-02T21:18:04.483] [INFO] insurance - Premium calulating for age 34 for slab 31-35 with 10 % = 6655
+[2021-01-02T21:18:04.483] [INFO] insurance - Premium calulating for gender MALE for slab MALE with 2 % = 6788.1
+[2021-01-02T21:18:04.484] [INFO] insurance - Premium calulating for existing condition overweight with 1 % = 6855.981000000001
+[2021-01-02T21:18:04.484] [INFO] insurance - Premium calulating for habits exercise with -3 % = 6650.3006
+[2021-01-02T21:18:04.484] [INFO] insurance - Premium calulating for habits smoking with 3 % = 6849.809617999999
+[2021-01-02T21:18:15.610] [INFO] insurance - Express server listening on port 8015
+[2021-01-02T21:18:30.966] [INFO] insurance - Express server listening on port 8015
+[2021-01-02T21:18:46.472] [INFO] insurance - Express server listening on port 8015
+[2021-01-02T21:19:01.489] [INFO] insurance - Premium calulating for age 34 for slab 18-25 with 10 % = 5500
+[2021-01-02T21:19:01.490] [INFO] insurance - Premium calulating for age 34 for slab 26-30 with 10 % = 6050
+[2021-01-02T21:19:01.491] [INFO] insurance - Premium calulating for age 34 for slab 31-35 with 10 % = 6655
+[2021-01-02T21:19:01.491] [INFO] insurance - Premium calulating for gender MALE for slab MALE with 2 % = 6788.1
+[2021-01-02T21:19:01.492] [INFO] insurance - Premium calulating for existing condition overweight with 1 % = 6855.981000000001
+[2021-01-02T21:19:01.492] [INFO] insurance - Premium calulating for habits exercise with -3 % = 6650.3006
+[2021-01-02T21:19:01.492] [INFO] insurance - Premium calulating for habits smoking with 3 % = 6849.809617999999
+[2021-01-02T21:19:14.297] [INFO] insurance - Express server listening on port 8015
+[2021-01-02T21:19:23.283] [INFO] insurance - Express server listening on port 8015
+[2021-01-02T21:21:01.471] [INFO] insurance - Express server listening on port 8015
+[2021-01-02T21:21:06.288] [INFO] insurance - Express server listening on port 8015
+[2021-01-02T21:21:08.289] [INFO] insurance - Premium calulating for age 34 for slab 18-25 with 10 % = 5500
+[2021-01-02T21:21:08.289] [INFO] insurance - Premium calulating for age 34 for slab 26-30 with 10 % = 6050
+[2021-01-02T21:21:08.290] [INFO] insurance - Premium calulating for age 34 for slab 31-35 with 10 % = 6655
+[2021-01-02T21:21:08.291] [INFO] insurance - Premium calulating for gender MALE for slab MALE with 2 % = 6788.1
+[2021-01-02T21:21:08.291] [INFO] insurance - Premium calulating for existing condition overweight with 1 % = 6855.981000000001
+[2021-01-02T21:21:08.292] [INFO] insurance - Premium calulating for habits exercise with -3 % = 6650.3006
+[2021-01-02T21:21:08.292] [INFO] insurance - Premium calulating for habits smoking with 3 % = 6849.809617999999
+[2021-01-02T21:21:14.262] [INFO] insurance - Express server listening on port 8015
+[2021-01-02T21:24:08.480] [INFO] insurance - Express server listening on port 8015

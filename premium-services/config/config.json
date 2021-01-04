@@ -1,0 +1,25 @@
+{
+    "port": 8001,
+    "dbConfig": {
+      "url": "mongodb://localhost:27017/",
+      "dbname": "insurance"
+    },
+    "loggerConfig": {
+      "appenders": {
+        "console": { "type": "console" },
+        "app": {
+          "type": "dateFile",
+          "filename": "logs/insurance.log",
+          "pattern": "-yyyy-MM-dd",
+          "alwaysIncludePattern": false
+        }
+      },
+      "categories": {
+        "insurance": { "appenders": ["app"], "level": "INFO" },
+        "default": { "appenders": ["console"], "level": "ALL" }
+      }
+    },
+    "paymentService": {
+      "url": "http://localhost:8002/payment"
+    }
+}

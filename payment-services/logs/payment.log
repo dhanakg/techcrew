@@ -1,0 +1,86 @@
+[2021-01-03T20:52:11.179] [INFO] payment - Express server listening on port 8002
+[2021-01-03T20:53:49.276] [INFO] payment - Request is invalid ERROR :
+{"path":["premium"],"property":"instance.premium","message":"is not of a type(s) string","schema":{"required":true,"type":"string"},"instance":6855.98,"name":"type","argument":["string"],"stack":"instance.premium is not of a type(s) string"}
+[2021-01-03T20:53:49.276] [ERROR] payment - Error at schema validation
+[2021-01-03T20:54:04.786] [INFO] payment - Request is valid
+[2021-01-03T20:54:04.790] [ERROR] payment - Error at base premium calculation
+[2021-01-03T20:55:59.498] [INFO] payment - Express server listening on port 8002
+[2021-01-03T20:56:03.107] [INFO] payment - Request is valid
+[2021-01-03T20:56:03.114] [INFO] payment - 1 document insertedundefined
+[2021-01-03T20:57:34.893] [INFO] payment - Express server listening on port 8002
+[2021-01-03T20:57:49.463] [INFO] payment - Express server listening on port 8002
+[2021-01-03T20:57:52.907] [INFO] payment - Request is valid
+[2021-01-03T20:58:29.644] [INFO] payment - Express server listening on port 8002
+[2021-01-03T20:58:33.001] [INFO] payment - Request is valid
+[2021-01-03T21:01:43.238] [INFO] payment - Express server listening on port 8002
+[2021-01-03T21:01:47.673] [INFO] payment - Request is valid
+[2021-01-03T21:02:06.285] [INFO] payment - Express server listening on port 8002
+[2021-01-03T21:02:09.289] [INFO] payment - Request is valid
+[2021-01-03T21:02:56.477] [INFO] payment - Express server listening on port 8002
+[2021-01-03T21:02:59.519] [INFO] payment - Request is valid
+[2021-01-03T21:03:56.903] [INFO] payment - Express server listening on port 8002
+[2021-01-03T21:04:43.972] [INFO] payment - Express server listening on port 8002
+[2021-01-03T21:05:03.684] [INFO] payment - Express server listening on port 8002
+[2021-01-03T21:06:05.388] [INFO] payment - Express server listening on port 8002
+[2021-01-03T21:06:19.107] [INFO] payment - Express server listening on port 8002
+[2021-01-03T21:06:29.766] [INFO] payment - Request is valid
+[2021-01-03T21:06:31.812] [INFO] payment - 1 document inserted5ff1b872f15a373b344b8395
+[2021-01-03T21:09:42.575] [INFO] payment - Express server listening on port 8002
+[2021-01-03T21:09:58.670] [INFO] payment - Express server listening on port 8002
+[2021-01-03T21:10:02.665] [INFO] payment - Request is valid
+[2021-01-03T21:10:28.592] [INFO] payment - Express server listening on port 8002
+[2021-01-03T21:10:34.258] [INFO] payment - Request is valid
+[2021-01-03T21:10:56.498] [INFO] payment - Express server listening on port 8002
+[2021-01-03T21:11:03.757] [INFO] payment - Request is valid
+[2021-01-03T21:11:05.817] [ERROR] payment - Error at payment insertion
+[2021-01-03T21:12:11.431] [INFO] payment - Express server listening on port 8002
+[2021-01-03T21:12:12.341] [INFO] payment - Request is valid
+[2021-01-03T21:13:15.235] [INFO] payment - Express server listening on port 8002
+[2021-01-03T21:13:20.369] [INFO] payment - Request is valid
+[2021-01-03T21:13:22.423] [ERROR] payment - Error at payment insertion
+[2021-01-03T21:14:01.415] [INFO] payment - Express server listening on port 8002
+[2021-01-03T21:14:04.681] [INFO] payment - Request is valid
+[2021-01-03T21:14:52.498] [INFO] payment - Express server listening on port 8002
+[2021-01-03T21:14:53.334] [INFO] payment - Request is valid
+[2021-01-03T21:16:03.981] [INFO] payment - Express server listening on port 8002
+[2021-01-03T21:16:13.672] [INFO] payment - Express server listening on port 8002
+[2021-01-03T21:16:19.114] [INFO] payment - Request is valid
+[2021-01-03T21:16:57.610] [INFO] payment - Express server listening on port 8002
+[2021-01-03T21:17:00.531] [INFO] payment - Request is valid
+[2021-01-03T21:17:02.686] [ERROR] payment - Error at payment insertion
+[2021-01-03T21:17:16.464] [INFO] payment - Express server listening on port 8002
+[2021-01-03T21:17:23.888] [INFO] payment - Express server listening on port 8002
+[2021-01-03T21:18:51.307] [INFO] payment - Express server listening on port 8002
+[2021-01-03T21:19:01.390] [INFO] payment - Express server listening on port 8002
+[2021-01-03T21:19:21.177] [INFO] payment - Request is valid
+[2021-01-03T21:19:23.224] [ERROR] payment - Error at payment insertion
+[2021-01-03T21:20:16.643] [INFO] payment - Express server listening on port 8002
+[2021-01-03T21:20:47.396] [INFO] payment - Express server listening on port 8002
+[2021-01-03T21:20:51.859] [INFO] payment - Request is valid
+[2021-01-03T21:20:53.897] [ERROR] payment - Error at payment insertion
+[2021-01-03T21:21:45.801] [INFO] payment - Express server listening on port 8002
+[2021-01-03T21:21:48.253] [INFO] payment - Request is valid
+[2021-01-03T21:21:50.293] [ERROR] payment - Error at payment insertiontrue
+[2021-01-03T21:22:15.774] [INFO] payment - Express server listening on port 8002
+[2021-01-03T21:22:16.910] [INFO] payment - Request is valid
+[2021-01-03T21:22:39.789] [INFO] payment - Request is valid
+[2021-01-03T21:22:41.828] [INFO] payment - 1 document insertedMongoError: E11000 duplicate key error collection: insurance.payments index: _id_ dup key: { _id: ObjectId('5ff1b872f15a373b344b8395') }
+[2021-01-03T21:22:41.829] [ERROR] payment - Error at payment insertiontrue
+[2021-01-03T21:24:28.873] [INFO] payment - Express server listening on port 8002
+[2021-01-03T21:25:14.672] [INFO] payment - Express server listening on port 8002
+[2021-01-03T21:25:57.016] [INFO] payment - Express server listening on port 8002
+[2021-01-03T21:26:29.280] [INFO] payment - Request is valid
+[2021-01-03T21:26:31.313] [INFO] payment - 1 document inserted5ff1c60576d31f4f90a8c541
+[2021-01-03T21:28:41.602] [INFO] payment - Express server listening on port 8002
+[2021-01-03T21:28:48.162] [INFO] payment - Express server listening on port 8002
+[2021-01-03T21:30:47.191] [INFO] payment - Express server listening on port 8002
+[2021-01-03T21:30:55.453] [INFO] payment - Express server listening on port 8002
+[2021-01-03T21:32:36.905] [INFO] payment - Express server listening on port 8002
+[2021-01-03T21:32:41.386] [INFO] payment - Request is valid
+[2021-01-03T21:32:43.405] [INFO] payment - payment details inserted5ff1c77934b8033e30a71010
+[2021-01-03T21:33:31.899] [INFO] payment - Express server listening on port 8002
+[2021-01-03T21:34:24.295] [INFO] payment - Express server listening on port 8002
+[2021-01-03T21:34:36.359] [INFO] payment - Express server listening on port 8002
+[2021-01-03T21:34:38.489] [INFO] payment - Request is valid
+[2021-01-03T21:34:51.561] [INFO] payment - Request is valid
+[2021-01-03T21:34:53.580] [INFO] payment - payment details inserted5ff1c7fb62db6122b4351306
