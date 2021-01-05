@@ -28,6 +28,9 @@ margin: 0px;
   transform: translateX(0) scale(1.1);	
 	
 }
+label.checkbox-inline:last-child {
+    padding-left: 11px !important;
+}
 @keyframes background-image-animation {
   0% {
     transform: translateX(-5%) scale(1.1);
@@ -161,6 +164,12 @@ section#formHolder {
   transform: translateY(0);
   opacity: 1;
 }
+label.checkbox-inline {
+    color: #000 !important;
+    padding: 0px !important;
+    padding-left: 21px !important;
+    padding-top: 6px !important;
+}
 
 .form {
   position: relative;
@@ -217,7 +226,6 @@ span.amt {
   font-family: "Montserrat", sans-serif;
      color: #9c9c9c;
  
-  z-index: -1;
   margin-bottom: 0px !important;
 }
 .form form label.active {
