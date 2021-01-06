@@ -5,7 +5,7 @@
   "scripts": {
     "start": "nodemon app.js",
     "test": "mocha",
-    "startServer": "forever start app.js",
+    "startServer": "forever --minUptime 5000 --spinSleepTime 3000 start app.js",
     "stopServer": "forever stop app.js",
     "restartServer": "forever restart  app.js"
   },
