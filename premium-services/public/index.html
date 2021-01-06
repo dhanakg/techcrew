@@ -32,7 +32,7 @@
 
             <div class="success-msg">
                <p>Great! You are one of our members now</p>
-               <a href="#" class="profile">Your Profile</a>
+               <a href="#" class="profile">Payment reference: <span id="pref"></span></a>
             </div>
          </div>
 
@@ -41,39 +41,43 @@
          <div class="col-sm-6 form">
 
             <!-- Login Form -->
-            <div class="login form-peice switched">
+            <div class="login form-peice switched" id="showPremium">
                <form class="login-form" action="#" method="post">
 					<p>Your Premium is:  <span class="amt" > Rs <span id="pamt"></span> </span></p>
 
                   <div class="CTA">
-                     
-                     <a href="#" class="switch">Back</a>
+                     <input type="hidden" id="paymentLink" />
+                     <a href="#" class="switch toggleClass" id="payment">Proceed Payment</a>
+                  </div>
+                  <div class="CTA"></div>
+                  <div class="CTA">
+                     <a href="#" class="switch toggleClass" id="back">Back</a>
                   </div>
                </form>
             </div><!-- End Login Form -->
 
 
             <!-- Signup Form -->
-            <div class="signup form-peice">
+            <div class="signup form-peice" id="showForm">
                <form class="signup-form" action="#" method="post">
 
                   <div class="form-group">
                      <label for="name"> Full Name </label>
-                     <input class="form-control" type="text" name="username" id="name"  >
+                     <input class="form-control" type="text" name="username" id="name"  required>
                       
                   </div>
 				   <div class="form-group">
                      <label for="name"> Age </label>
-                     <input  type="text" name="username" id="name"  class="form-control">
+                     <input  type="text" name="username" id="age"  class="form-control" required>
                      
                   </div>
 				 <div class="form-group">
 					<label>Gender</label>
 	   
-						<select class="form-control">
-						<option> --Select-- </option>
+						<select class="form-control" id="gender" required>
 						<option> Male </option>
-						<option> Female </option>
+                  <option> Female </option>
+                  <option> Other </option>
 						 
 					</select>
                       
@@ -83,16 +87,16 @@
 					<div class="clear"></div>
 					
 							 <label class="checkbox-inline">
-							  <input type="checkbox" value="">Hyper tension
+							  <input type="checkbox" value="" id="ht">Hyper tension
+							</label>
+							<label class="checkbox-inline"  >
+							  <input type="checkbox" value="" id="bs">Blood sugar
+							</label>
+							<label class="checkbox-inline" >
+							  <input type="checkbox" value=""  id="bp">Blood pressure
 							</label>
 							<label class="checkbox-inline">
-							  <input type="checkbox" value="">Blood sugar
-							</label>
-							<label class="checkbox-inline">
-							  <input type="checkbox" value="">Blood pressure
-							</label>
-							<label class="checkbox-inline">
-							  <input type="checkbox" value="">Over Weight
+							  <input type="checkbox" value="" id="ow">Over Weight
 							</label>
 					 
 					</select>
@@ -103,27 +107,23 @@
 					<div class="clear"></div>
 					
 							 <label class="checkbox-inline">
-							  <input type="checkbox" value="">Exercise
+							  <input type="checkbox" value=""  id="ex">Exercise
 							</label>
 							<label class="checkbox-inline">
-							  <input type="checkbox" value="">Drugs
+							  <input type="checkbox" value=""  id="dr">Drugs
 							</label>
 							<label class="checkbox-inline">
-							  <input type="checkbox" value="">Smoking
+							  <input type="checkbox" value=""  id="sm">Smoking
 							</label>
 							<label class="checkbox-inline">
-							  <input type="checkbox" value="">Alcohol
+							  <input type="checkbox" value=""  id="al">Alcohol
 							</label>
 					 
 					</select>
                       
                   </div>
-				  
-				   
                   <div class="CTA">
-                     
-                     
-                     <a href="#" class="switch btn btn-danger">Calulate Premium</a>
+                     <button class="switch btn btn-danger toggleClass">Calulate Premium</button>
                   </div>
                </form>
             </div><!-- End Signup Form -->

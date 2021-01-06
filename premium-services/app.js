@@ -24,11 +24,6 @@ app.use(function(req, res, next) {
   next(createError(404));
 });
 
-app.get("/",(req, res) => {
-  res.header("Access-Control-Allow-Origin", "*");
-  res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept"); 
-  res.sendFile(__dirname + '/public/index.html');
-});
 
 app.listen(nconf.get('port'), () => {
   console.log("Express server listening on port " + nconf.get('port'));
