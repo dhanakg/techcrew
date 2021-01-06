@@ -14,9 +14,7 @@ netstat -o -n -a | findstr %%a
  goto FIN
  :FOUND
  echo port found
- D:
- cd %premDeployFolder%
- npm run stopServer
+ for /f "tokens=5" %%a in ('netstat -aon ^|find " [::]:%%a " ^|find /i " TCP " ') do echo taskkill /F /PID %%a
  :FIN
 :8002
 netstat -o -n -a | findstr %%a
@@ -25,9 +23,7 @@ netstat -o -n -a | findstr %%a
  goto FIN
  :FOUND
  echo port found
- D:
- cd %paymDeployFolder%
- npm run stopServer
+ for /f "tokens=5" %%a in ('netstat -aon ^|find " [::]:%%a " ^|find /i " TCP " ') do echo taskkill /F /PID %%a
  :FIN
 :End
 
