@@ -10,7 +10,11 @@ const cors = require('cors');
 
 var app = express();
 
-app.use(cors());
+var corsOptions = {
+  origin: 'http://localhost:8001',
+  optionsSuccessStatus: 200 // For legacy browser support
+}
+app.use(cors(corsOptions));
 logger.config(nconf.get('loggerConfig'));
 db.config(nconf.get("dbConfig").url, nconf.get("dbConfig").dbname);
 app.use(express.json());
@@ -18,10 +22,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 app.use('/payment', indexRouter);
-// catch 404 and forward to error handler
-app.use(function(req, res, next) {
-  next(createError(404));
-});
+
 
 app.listen(nconf.get('port'), () => {
   console.log("Express server listening on port " + nconf.get('port'));
