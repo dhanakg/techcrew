@@ -1,4 +1,4 @@
 @echo off
 D:
-cd D:\kgTechCrew\DevelopmentWorkSpace\Q5\premium-services
+cd D:\kgTechCrew\KGTechCrewDeploymentFolder\premium-services
 npm run start
