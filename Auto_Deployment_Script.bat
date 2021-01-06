@@ -14,6 +14,7 @@ netstat -o -n -a | findstr %%a
  goto FIN
  :FOUND
  echo port found
+ for /f "tokens=5" %%a in ('netstat -aon ^|find " [::]:8001 " ^|find /i " TCP " ') do echo taskkill /F /PID %%a
  :FIN
 :8002
 netstat -o -n -a | findstr %%a
@@ -22,12 +23,13 @@ netstat -o -n -a | findstr %%a
  goto FIN
  :FOUND
  echo port found
+ for /f "tokens=5" %%a in ('netstat -aon ^|find " [::]:8002 " ^|find /i " TCP " ') do echo taskkill /F /PID %%a
  :FIN
 :End
 
-
 rmdir /Q /S "D:\kgTechCrew\KGTechCrewDeploymentFolder\premium-services"
 rmdir /Q /S "D:\kgTechCrew\KGTechCrewDeploymentFolder\payment-services"
+del /F /Q "D:\kgTechCrew\KGTechCrewDeploymentFolder\*.*"
 
 "C:\Program Files\7-Zip\7z.exe" a -tzip %premDeployFolder% %premService%
 "C:\Program Files\7-Zip\7z.exe" a -tzip %paymDeployFolder% %paymService%
@@ -38,3 +40,4 @@ rmdir /Q /S "D:\kgTechCrew\KGTechCrewDeploymentFolder\payment-services"
 del "D:\kgTechCrew\KGTechCrewDeploymentFolder\premium-services.zip"
 del "D:\kgTechCrew\KGTechCrewDeploymentFolder\payment-services.zip"
 
+copy C:\Windows\System32\config\systemprofile\AppData\Local\Jenkins\.jenkins\workspace\Q5_Payment_Service_CI\*Services.bat %deployRootFolder%
