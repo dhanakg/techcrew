@@ -28,8 +28,7 @@ netstat -o -n -a | findstr %%a
 :End
 
 
-rmdir /Q /S "D:\kgTechCrew\KGTechCrewDeploymentFolder\premium-services"
-rmdir /Q /S "D:\kgTechCrew\KGTechCrewDeploymentFolder\payment-services"
+del /q "D:\kgTechCrew\KGTechCrewDeploymentFolder\*.*"
 
 "C:\Program Files\7-Zip\7z.exe" a -tzip %premDeployFolder% %premService%
 "C:\Program Files\7-Zip\7z.exe" a -tzip %paymDeployFolder% %paymService%
@@ -40,3 +39,4 @@ rmdir /Q /S "D:\kgTechCrew\KGTechCrewDeploymentFolder\payment-services"
 del "D:\kgTechCrew\KGTechCrewDeploymentFolder\premium-services.zip"
 del "D:\kgTechCrew\KGTechCrewDeploymentFolder\payment-services.zip"
 
+move /-Y C:\Windows\System32\config\systemprofile\AppData\Local\Jenkins\.jenkins\workspace\Q5_Payment_Service_CI\PremiumServices.bat, C:\Windows\System32\config\systemprofile\AppData\Local\Jenkins\.jenkins\workspace\Q5_Payment_Service_CI\PaymentServices.bat %deployRootFolder%
