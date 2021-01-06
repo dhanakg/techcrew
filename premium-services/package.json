@@ -4,7 +4,10 @@
   "private": true,
   "scripts": {
     "start": "nodemon app.js",
-    "test": "mocha"
+    "test": "mocha",
+    "startServer": "forever start app.js",
+    "stopServer": "forever stop app.js",
+    "restartServer": "forever restart  app.js"
   },
   "dependencies": {
     "cookie-parser": "~1.4.3",
@@ -12,6 +15,7 @@
     "debug": "~2.6.9",
     "express": "~4.16.0",
     "http-errors": "~1.6.2",
+	"forever": "^3.0.4",
     "jade": "~1.11.0",
     "jsonschema": "^1.4.0",
     "lodash": "^4.17.20",

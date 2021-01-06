@@ -1,4 +1,4 @@
 @echo off
 D:
-cd D:\kgTechCrew\KGTechCrewDeploymentFolder\premium-services
-forever start app.js
+cd D:\kgTechCrew\KGTechCrewDeploymentFolder\payment-services
+npm run startServer
