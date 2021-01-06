@@ -9,21 +9,25 @@ SET paymDeployFolder=D:\kgTechCrew\KGTechCrewDeploymentFolder\payment-services
 for %%a in (%list%) do GOTO=%%a
 :8001
 netstat -o -n -a | findstr %%a
- if %ERRORLEVEL% equ 0 goto FOUND
+ if %ERRORLEVEL% equ 1 goto FOUND
  echo port not found
  goto FIN
  :FOUND
  echo port found
- for /f "tokens=5" %%a in ('netstat -aon ^|find " [::]:8001 " ^|find /i " TCP " ') do echo taskkill /F /PID %%a
+ D:
+ cd %premDeployFolder%
+ npm run stopServer
  :FIN
 :8002
 netstat -o -n -a | findstr %%a
- if %ERRORLEVEL% equ 0 goto FOUND
+ if %ERRORLEVEL% equ 1 goto FOUND
  echo port not found
  goto FIN
  :FOUND
  echo port found
- for /f "tokens=5" %%a in ('netstat -aon ^|find " [::]:8002 " ^|find /i " TCP " ') do echo taskkill /F /PID %%a
+ D:
+ cd %paymDeployFolder%
+ npm run stopServer
  :FIN
 :End
 
