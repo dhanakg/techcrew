@@ -1,4 +1,4 @@
 @echo off
 D:
 cd D:\kgTechCrew\KGTechCrewDeploymentFolder\premium-services
-npm run start
+call npm run startServer
