@@ -6,27 +6,6 @@ SET deployRootFolder=D:\kgTechCrew\KGTechCrewDeploymentFolder\
 SET premDeployFolder=D:\kgTechCrew\KGTechCrewDeploymentFolder\premium-services
 SET paymDeployFolder=D:\kgTechCrew\KGTechCrewDeploymentFolder\payment-services
 
-for %%a in (%list%) do GOTO=%%a
-:8001
-netstat -o -n -a | findstr %%a
- if %ERRORLEVEL% equ 1 goto FOUND
- echo port not found
- goto FIN
- :FOUND
- echo port found
- for /f "tokens=5" %%a in ('netstat -aon ^|find " [::]:%%a " ^|find /i " TCP " ') do echo taskkill /F /PID %%a
- :FIN
-:8002
-netstat -o -n -a | findstr %%a
- if %ERRORLEVEL% equ 1 goto FOUND
- echo port not found
- goto FIN
- :FOUND
- echo port found
- for /f "tokens=5" %%a in ('netstat -aon ^|find " [::]:%%a " ^|find /i " TCP " ') do echo taskkill /F /PID %%a
- :FIN
-:End
-
 rmdir /Q /S "D:\kgTechCrew\KGTechCrewDeploymentFolder\premium-services"
 rmdir /Q /S "D:\kgTechCrew\KGTechCrewDeploymentFolder\payment-services"
 del /F /Q "D:\kgTechCrew\KGTechCrewDeploymentFolder\*.*"
