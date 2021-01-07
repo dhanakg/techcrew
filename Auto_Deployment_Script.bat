@@ -1,5 +1,4 @@
 @echo off
-set list=8001 8002
 SET premService=C:\Windows\System32\config\systemprofile\AppData\Local\Jenkins\.jenkins\workspace\Q5_Insurance_CI\premium-services
 SET paymService=C:\Windows\System32\config\systemprofile\AppData\Local\Jenkins\.jenkins\workspace\Q5_Insurance_CI\payment-services
 SET deployRootFolder=D:\kgTechCrew\KGTechCrewDeploymentFolder\
