@@ -18,5 +18,3 @@ del /F /Q "D:\kgTechCrew\KGTechCrewDeploymentFolder\*.*"
 
 del "D:\kgTechCrew\KGTechCrewDeploymentFolder\premium-services.zip"
 del "D:\kgTechCrew\KGTechCrewDeploymentFolder\payment-services.zip"
-
-copy C:\Windows\System32\config\systemprofile\AppData\Local\Jenkins\.jenkins\workspace\Q5_Insurance_CI\*Services.bat %deployRootFolder%
