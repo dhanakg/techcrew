@@ -6,6 +6,9 @@ const jsonValidator = require('../schema-validator/validator');
 const nconf = require('nconf').file({file: 'config/config.json'});
 var _ = require('lodash');
 
+router.get('/', function(req, res) {
+  res.status(200).send("success");
+});
 /* POST home page. */
 router.post('/premium/:id', function(req, res) {
    jsonValidator.isValid(req.body, function(isValid, errorReason){
