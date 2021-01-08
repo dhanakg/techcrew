@@ -1,8 +1,14 @@
-# Premium Calculation Service
+# Payment Service
 
-1. Clone from stash
-2. 'npm install' to install all dependencies in package.json under payment-services/
-3. Do the necessary configurations inside the file 'config.json' like
-    dbConfig, loggerConfig etc
+## Prerequisites
+1. NodeJS ~v12.9.0
+2. MongoDB v4.4.2
+
+## Installation
+
+1. Download or clone the source code from git repo https://github.com/kgtechcrew/Q5.git
+2. Run command 'npm install' to install all dependencies in package.json under payment-services/
+3. Do the necessary configurations inside the file 'config.json' like port, dbConfig, loggerConfig etc
+4. Run 'npm test' to test the payment-services
 4. Run 'npm start' to start server under payment-services/
-5. Access http://localhost:<port>
+5. Access http://localhost:8002
